@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ececec;
+  font-family: "Oswald", sans-serif;
+}
+
+.liveTimeWrap {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.liveTimeWrap h1 {
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #2f2d2d;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.liveTimeBox {
+  width: 33.33%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 29px #d7d7d7;
+  font-size: 28px;
+  padding: 30px 20px;
+  color: #028074;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-family: "Orbitron", sans-serif;
+}
